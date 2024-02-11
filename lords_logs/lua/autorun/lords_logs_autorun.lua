@@ -55,6 +55,6 @@ hook.Add("XeninUI.Loaded", "LLogs:Load", function()
 
     timer.Simple(3, function() -- make sure all gamemodes / addons have loaded
         IncludeDir("lords_logs/logging_modules")
-        IncludeDir("gmodadminsuite/modules/logging/modules/")
+        IncludeDir("gmodadminsuite/modules/logging/modules")
     end)
 end)
