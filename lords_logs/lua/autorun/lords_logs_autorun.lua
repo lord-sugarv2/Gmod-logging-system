@@ -38,9 +38,9 @@ hook.Add("XeninUI.Loaded", "LLogs:Load", function()
     Shared("lords_logs/config/sh_base_server.lua")
 
     Shared("lords_logs/functions/sh_functions.lua")
-    Shared("lords_logs/functions/sh_blogs_support.lua")
     Server("lords_logs/functions/sv_functions.lua")
     Client("lords_logs/functions/cl_functions.lua")
+    Shared("lords_logs/functions/sh_blogs_support.lua")
 
     Server("lords_logs/databases/sv_sqlite.lua")
     Server("lords_logs/databases/sv_database.lua")
